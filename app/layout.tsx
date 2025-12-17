@@ -7,7 +7,7 @@ import { profile } from "@/data/content";
 export const metadata: Metadata = {
   title: `${profile.fullName} — Portfolio`,
   description: `${profile.fullName} • ${profile.role}`,
-  metadataBase: new URL("https://example.com")
+  metadataBase: new URL("https://portfolio-beta-teal-88.vercel.app")
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
