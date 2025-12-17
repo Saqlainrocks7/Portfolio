@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --bg0: 8 10 14;        /* page bg */
+  --bg1: 11 14 20;       /* cards */
+  --stroke: 32 38 50;    /* borders */
+  --muted: 144 154 175;  /* text */
+  --text: 232 237 244;   /* primary text */
+  --teal: 116 233 210;
+  --indigo: 160 140 255;
+  --violet: 146 117 255;
+  --cyan: 112 199 255;
+  --shadow: 0 0 0;
+}
+
+html, body { height: 100%; }
+body{
+  background: rgb(var(--bg0));
+  color: rgb(var(--text));
+}
+
+@layer components{
+  .container-max { @apply mx-auto w-full max-w-6xl px-4; }
+  .card { @apply rounded-2xl border border-[rgb(var(--stroke))] bg-[rgba(var(--bg1),0.65)] backdrop-blur-md shadow-[0_30px_120px_rgba(0,0,0,0.5)]; }
+  .chip { @apply inline-flex items-center gap-2 rounded-full border border-[rgb(var(--stroke))] bg-[rgba(255,255,255,0.02)] px-4 py-2 text-xs font-mono text-[rgb(var(--muted))]; }
+  .navlink { @apply text-sm text-[rgb(var(--muted))] hover:text-[rgb(var(--text))] transition; }
+  .btn { @apply inline-flex items-center justify-center gap-2 rounded-xl border border-[rgb(var(--stroke))] bg-[rgba(255,255,255,0.02)] px-5 py-3 text-sm font-medium hover:bg-[rgba(255,255,255,0.06)] transition; }
+  .btn-primary { @apply border-transparent bg-[rgb(var(--teal))] text-[rgb(var(--bg0))] hover:opacity-95; }
+  .subtle { @apply text-[rgb(var(--muted))]; }
+}
+
+.gradient-name{
+  background: linear-gradient(90deg, rgb(var(--teal)), rgb(var(--cyan)), rgb(var(--indigo)));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.grid-bg{
+  background-image:
+    linear-gradient(to right, rgba(255,255,255,0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255,255,255,0.04) 1px, transparent 1px);
+  background-size: 64px 64px;
+  mask-image: radial-gradient(ellipse at center, rgba(0,0,0,1) 42%, rgba(0,0,0,0) 75%);
+}
+
+::selection { background: rgba(160,140,255,0.25); }
