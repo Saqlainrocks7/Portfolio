@@ -204,24 +204,10 @@ export const researchAreas = [
 
 export const publications = [
   {
-    title: "Toward Automated Privacy Auditing for Immersive Apps",
-    venue: "Preprint (dummy)",
-    year: "2025",
-    authors: "Saqlain Ali, Coauthors",
-    note: "A study on integrating static analysis and policy parsing for scalable VR audits."
-  },
-  {
-    title: "A Retrieval-Augmented Assistant for Secure Dev Workflows",
-    venue: "Workshop (dummy)",
-    year: "2024",
-    authors: "Saqlain Ali, Coauthors",
-    note: "Explores RAG pipelines with traceability, citations, and access-control aware retrieval."
-  },
-  {
-    title: "Low-Latency Vision Pipelines in the Browser",
-    venue: "Tech report (dummy)",
-    year: "2023",
-    authors: "Saqlain Ali",
-    note: "Practical patterns for WebRTC ingestion, SSE streaming, and UI overlays."
+    title: "PHOENIX",
+    venue: "ACM CCS",
+    year: "2026",
+    authors: "Nusrat Jahan, Md Nayim, Sk Saqlain Ali",
+    note: "A study on breaking the language barrier by unmasking multilingual adversarial content through phonetic and context fusion"
   }
 ];

@@ -68,7 +68,7 @@ export default function Page() {
             <SectionHeading
               chip="🧪 research_area"
               title="Research Area"
-              subtitle="Current interests and directions (dummy content — replace with your real work)"
+              subtitle="Current interests and directions in my research"
             />
           </MotionInView>
           <MotionInView delay={0.05}>
@@ -83,7 +83,7 @@ export default function Page() {
             <SectionHeading
               chip="📄 publications"
               title="Publications"
-              subtitle="Selected papers and reports (dummy content — replace with your real publications)"
+              subtitle="Published/Ongoing Research Publications"
             />
           </MotionInView>
           <MotionInView delay={0.05}>
