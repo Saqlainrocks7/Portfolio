@@ -15,7 +15,7 @@ export type Project = {
   blurb: string;
   bullets: string[];
   stackLine: string;
-  extraCount: number;
+  // extraCount: number;
   links: { github?: string; live?: string };
 };
 
@@ -93,8 +93,8 @@ export const projects: Project[] = [
       "Real-time updates via WebSockets"
     ],
     stackLine: "TypeScript · Next.js · Node.js · PostgreSQL",
-    extraCount: 3,
-    links: { github: "https://github.com/Saqlainrocks7" }
+    // extraCount: 3,
+    links: { github: "https://github.com/Saqlainrocks7/EcoSync" }
   },
   {
     name: "CodeSage",
@@ -106,8 +106,8 @@ export const projects: Project[] = [
       "Self-hosted LLM with FastAPI backend"
     ],
     stackLine: "Python · React · OpenAI API · ChromaDB",
-    extraCount: 2,
-    links: { github: "https://github.com/Saqlainrocks7" }
+    // extraCount: 2,
+    links: { github: "https://github.com/Saqlainrocks7/CodeSage" }
   },
   {
     name: "AuraVision",
@@ -119,8 +119,8 @@ export const projects: Project[] = [
       "SSE streaming for low-latency predictions"
     ],
     stackLine: "Python · React · WebRTC API · Canvas API",
-    extraCount: 2,
-    links: { github: "https://github.com/Saqlainrocks7" }
+    //extraCount: 2,
+    links: { github: "https://github.com/Saqlainrocks7/AuraVision" }
   }
 ];
 
@@ -175,7 +175,7 @@ export const education = [
     degree: "Master of Science in Computer Science",
     school: "Iowa State University",
     location: "Ames, IA",
-    dates: "Aug 2021 — May 2026",
+    dates: "Aug 2021 — Dec 2026",
     badge: "Current"
   },
   {
