@@ -42,9 +42,9 @@ export function ProjectCards() {
 
               <div className="mt-6 border-t border-[rgba(255,255,255,0.08)] pt-4 flex items-center justify-between gap-4">
                 <div className="text-xs font-mono text-[rgba(190,200,220,0.7)]">{p.stackLine}</div>
-                <div className="text-xs font-mono" style={{ color: "rgb(var(--teal))" }}>
+                {/*<div className="text-xs font-mono" style={{ color: "rgb(var(--teal))" }}>
                   +{p.extraCount}
-                </div>
+                </div>*/}
               </div>
             </div>
           </div>
