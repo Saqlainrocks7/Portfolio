@@ -142,9 +142,13 @@ export const skillGroups: SkillGroup[] = [
     items: [
       { name: "Django", pct: 92 },
       { name: "React", pct: 90 },
+      { name: "Node.js", pct: 85 },
       { name: "Next.js", pct: 85 },
       { name: "FastAPI", pct: 88 },
-      { name: "Flask", pct: 82 }
+      { name: "Flask", pct: 82 },
+      { name: "Selenium", pct: 80 },
+      { name: "LangChain", pct: 82 },
+      { name: "BERT", pct: 80 }
     ]
   },
   {
@@ -163,7 +167,7 @@ export const skillGroups: SkillGroup[] = [
       { name: "AWS", pct: 82 },
       { name: "Docker", pct: 88 },
       { name: "Git", pct: 92 },
-      { name: "Node.js", pct: 85 }
+      { name: "CI/CD", pct: 85 }
     ]
   }
 ];
@@ -189,25 +193,22 @@ export const education = [
 
 export const researchAreas = [
   {
-    title: "VR Privacy & Security Audits",
+    title: "VR Privacy & Security Analysis",
     desc: "Threat modeling and automated privacy audits for immersive applications, including network behavior characterization and policy-to-code consistency checks."
   },
+
   {
-    title: "Static + Dynamic App Analysis",
-    desc: "Building pipelines that combine call-graph extraction, data-flow analysis, and runtime instrumentation to detect sensitive data flows."
-  },
-  {
-    title: "Compliance Automation",
-    desc: "Mapping technical findings to legal requirements (e.g., GDPR-like principles) to produce actionable risk scores and evidence."
+    title: "Litigation_LLM",
+    desc: "A domain-specific LLM for legal professionals, trained on case law and statutes, providing types of evidences the court might consider in its future rulings."
   }
 ];
 
 export const publications = [
   {
-    title: "PHOENIX",
-    venue: "ACM CCS",
+    title: "Data Hiding Practices in Virtual Reality: A Privacy Audit of VR Apps",
+    venue: "ESORICS",
     year: "2026",
-    authors: "Nusrat Jahan, Md Nayim, Sk Saqlain Ali",
-    note: "A study on breaking the language barrier by unmasking multilingual adversarial content through phonetic and context fusion"
+    authors: "Sk Saqlain Ali, Dr. Amit Kumar Sikder",
+    note: ""
   }
 ];
