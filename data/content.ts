@@ -16,7 +16,7 @@ export type Project = {
   bullets: string[];
   stackLine: string;
   // extraCount: number;
-  links: { github?: string; live?: string };
+  links: { github?: string };
 };
 
 export type SkillGroup = {
@@ -198,7 +198,7 @@ export const researchAreas = [
   },
 
   {
-    title: "Litigation_LLM",
+    title: "Litigation LLM",
     desc: "A domain-specific LLM for legal professionals, trained on case law and statutes, providing types of evidences the court might consider in its future rulings."
   }
 ];

@@ -2,15 +2,11 @@ import { researchAreas, publications } from "@/data/content";
 
 export function ResearchAreas() {
   return (
-    <div className="mt-14 grid gap-5 md:grid-cols-3">
+    <div className="mt-14 grid gap-5 md:grid-cols-2">
       {researchAreas.map((r) => (
         <div key={r.title} className="card p-8">
           <div className="text-lg font-semibold">{r.title}</div>
           <p className="mt-3 subtle text-sm leading-relaxed">{r.desc}</p>
-          <div className="mt-6 flex gap-2">
-            <span className="chip !px-3 !py-1.5">focus</span>
-            <span className="chip !px-3 !py-1.5">methods</span>
-          </div>
         </div>
       ))}
     </div>
