@@ -23,7 +23,7 @@ export function ProjectCards() {
               </div>
               <div className="flex gap-2">
                 <a className="navlink" aria-label="GitHub" href={p.links.github ?? "#"} target="_blank" rel="noreferrer"><Github size={18} /></a>
-                <a className="navlink" aria-label="Open" href={p.links.live ?? "#"} target="_blank" rel="noreferrer"><ExternalLink size={18} /></a>
+              
               </div>
             </div>
 
